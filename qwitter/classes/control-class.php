@@ -9,10 +9,10 @@ class control_class
 	public function __construct()
 	{ 
         date_default_timezone_set('Asia/Kathmandu');
-        $host_name='sql113.epizy.com';
-		$user_name='epiz_32565365';
-		$password='kWypNuIRef9';
-		$db_name='epiz_32565365_qwitter';
+        $host_name='localhost';
+		$user_name='root';
+		$password='';
+		$db_name='social';
 
 		try{
 			$connection=new PDO("mysql:host={$host_name}; dbname={$db_name}", $user_name,  $password);
