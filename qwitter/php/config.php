@@ -1,8 +1,8 @@
 <?php
-        $hostname='sql113.epizy.com';
-		$username='epiz_32565365';
-		$password='kWypNuIRef9';
-		$dbname='epiz_32565365_qwitter';
+        $hostname='localhost';
+		$username='root';
+		$password='';
+		$dbname='social';
 
   $conn = mysqli_connect($hostname, $username, $password, $dbname);
   if(!$conn){
